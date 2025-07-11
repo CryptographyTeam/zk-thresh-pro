@@ -253,8 +253,8 @@ $
 
 1. 克隆仓库并构建：  
    ```bash
-   git clone https://github.com/your-org/enterprise-threshold-sdk.git
-   cd enterprise-threshold-sdk
+   git clone https://github.com/CryptographyTeam/zk-thresh-pro.git
+   cd zk-thresh-pro
    cargo build --release
    ```
 
@@ -266,7 +266,7 @@ $
 
 3. 在业务代码中集成示例：
    ```rust
-   use enterprise_threshold_sdk::{EnterpriseCryptoSystem, EnterpriseConfig, KeyState};
+   use zk-thresh-pro::{EnterpriseCryptoSystem, EnterpriseConfig, KeyState};
 
    let config = EnterpriseConfig::default();
    let mut system = EnterpriseCryptoSystem::new(config);
